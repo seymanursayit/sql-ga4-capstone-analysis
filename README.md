@@ -14,6 +14,27 @@ The project combines SQL techniques to analyze marketing campaigns, evaluate adv
 - DBeaver
 - SQL
 
+## Repository Structure
+
+```text
+sql-ga4-capstone-analysis/
+│
+├── PostgreSQL/
+│   ├── 01_daily_spend_statistics.sql
+│   ├── 02_top_5_romi_days.sql
+│   ├── 03_top_weekly_campaign.sql
+│   ├── 04_monthly_reach_growth.sql
+│   └── 05_longest_adset_activity.sql
+│
+├── BigQuery/
+│   ├── 01_ga4_event_data_preparation.sql
+│   ├── 02_ga4_conversion_funnel.sql
+│   ├── 03_ga4_landing_page_analysis.sql
+│   └── 04_ga4_engagement_purchase_correlation.sql
+│
+└── README.md
+```
+
 ## Project Tasks
 
 ### Part 1: Online Advertising Campaign Analysis (PostgreSQL)
